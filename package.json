@@ -4,12 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node ."
-  },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
+    "start": "gulp"
   },
   "dependencies": {},
   "devDependencies": {
@@ -17,5 +12,10 @@
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
   }
 }
