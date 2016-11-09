@@ -1,9 +1,13 @@
+// @flow
+
 class Dog {
-  constructor(name) {
+  name: string;
+
+  constructor(name: string) {
     this.name = name;
   }
 
-  bark() {
+  bark(): string {
     return `Woof! I am ${this.name}`;
   }
 
