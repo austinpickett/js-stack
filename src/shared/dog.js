@@ -1,4 +1,4 @@
-export default class Dog {
+class Dog {
   constructor(name) {
     this.name = name;
   }
@@ -6,4 +6,12 @@ export default class Dog {
   bark() {
     return `Woof! I am ${this.name}`;
   }
+
+  barkInConsole() {
+    /* eslint-disable no-console */
+    console.log(this.bark());
+    /* eslint-enable no-console */
+  }
 }
+
+export default Dog;
